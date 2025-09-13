@@ -17,7 +17,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRoutes)
 
 app.get('/', (req, res) => {
-   res.send("<h1>Hello! Welcome to the Blockbuster REST API.</h1>");
+   res.send("<h1>Hello! Welcome to the FilmGrid REST API.</h1>");
 })
 
 const PORT = process.env.PORT || 5000;

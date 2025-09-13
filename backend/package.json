@@ -1,14 +1,14 @@
 {
-  "name": "backend",
+  "name": "filmgrid-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "FilmGrid movie review platform backend API",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Ryan Vu",
+  "keywords": ["movies", "reviews", "social", "mern", "filmgrid"],
+  "author": "Badal Kumar",
   "license": "ISC",
   "engines": {
     "node": "16.17.1"

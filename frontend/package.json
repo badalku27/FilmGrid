@@ -1,8 +1,8 @@
 {
-  "name": "frontend",
+  "name": "filmgrid-frontend",
   "version": "1.0.1",
   "private": true,
-  "author": "Ryan Vu",
+  "author": "Badal Kumar",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",

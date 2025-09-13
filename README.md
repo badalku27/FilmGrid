@@ -1,4 +1,4 @@
-# 🎬 Blockbuster - Movie Reviews Social Platform
+# 🎬 FilmGrid - Movie Reviews Social Platform
 
 A modern full-stack social media application where movie enthusiasts can share reviews, rate films, and connect with other cinephiles. Built with the MERN stack and featuring secure authentication and real-time interactions.
 
