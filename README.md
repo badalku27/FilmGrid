@@ -155,8 +155,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Badal Kumar**
 - GitHub: [@badalku27](https://github.com/badalku27)
-- Portfolio: [Coming Soon]
-- LinkedIn: [Connect with me]
 
 ---
 
