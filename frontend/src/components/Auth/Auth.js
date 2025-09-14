@@ -57,6 +57,8 @@ const Auth = () => {
       setError("");
    }
 
+   // Temporarily disabled Google OAuth - requires proper Client ID setup
+   /*
    const login = useGoogleLogin({
       onSuccess: async tokenResponse => {
          setLoading(true);
@@ -82,6 +84,7 @@ const Auth = () => {
          setLoading(false);
       }
    });
+   */
 
    // Error boundary fallback
    if (!classes) {
@@ -138,6 +141,7 @@ const Auth = () => {
                >
                   {loading ? "Processing..." : (isSignup? "Sign Up" : "Sign In")}
                </Button>
+               {/* Temporarily disabled Google OAuth - requires proper Client ID setup
                <Button 
                   id="google" 
                   className={classes.googleButton} 
@@ -148,7 +152,8 @@ const Auth = () => {
                   disabled={loading}
                >
                   {loading ? "Processing..." : "Sign in with Google"}
-               </Button>  
+               </Button>
+               */}  
                            
                <Grid container justifyContent="flex-end">
                   <Grid item>
