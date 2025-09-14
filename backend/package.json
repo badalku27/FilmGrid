@@ -11,7 +11,7 @@
   "author": "Badal Kumar",
   "license": "ISC",
   "engines": {
-    "node": "16.17.1"
+    "node": "22.x"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

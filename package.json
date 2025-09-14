@@ -12,6 +12,6 @@
   "author": "Badal Kumar",
   "license": "MIT",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
