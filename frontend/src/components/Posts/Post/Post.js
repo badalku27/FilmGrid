@@ -12,7 +12,23 @@ import { deletePost, likePost } from "../../../actions/posts";
 function Post({ post, setCurrentId }) { 
    const { classes } = useStyles();
    const dispatch = useDispatch();
-   const user = JSON.parse(localStorage.getItem("profile"));
+   
+   // Safe parsing of localStorage data
+   const getUserFromStorage = () => {
+      try {
+         const storedProfile = localStorage.getItem("profile");
+         if (!storedProfile || storedProfile === "undefined") {
+            return null;
+         }
+         return JSON.parse(storedProfile);
+      } catch (error) {
+         console.warn("Failed to parse profile from localStorage:", error);
+         localStorage.removeItem("profile"); // Clean up corrupted data
+         return null;
+      }
+   };
+   
+   const user = getUserFromStorage();
 
    const Likes = () => {
       if (post?.likes?.length > 0) {
