@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "filmgrid",
   "builds": [
     {
       "src": "package.json",
@@ -10,9 +11,7 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }

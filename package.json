@@ -1,0 +1,17 @@
+{
+  "name": "filmgrid",
+  "version": "1.0.0",
+  "description": "FilmGrid - Movie Reviews Social Platform",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm start",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && npm install"
+  },
+  "keywords": ["movies", "reviews", "social", "mern", "filmgrid"],
+  "author": "Badal Kumar",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}
